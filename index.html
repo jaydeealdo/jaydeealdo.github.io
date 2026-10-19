@@ -59,6 +59,12 @@ h2{font-size:10px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;c
 .row .tx b{display:block;font-size:15px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .row .tx span{display:block;font-size:12.5px;color:var(--mute);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .row .ar{width:16px;height:16px;stroke:rgba(255,255,255,.5);fill:none;stroke-width:2;flex:none}
+.gig{display:flex;align-items:center;gap:16px;padding:14px 16px;border-radius:12px;background:var(--glass);backdrop-filter:blur(24px);-webkit-backdrop-filter:blur(24px);margin-bottom:8px}
+.gig .d{width:44px;text-align:center;flex:none;line-height:1.1}
+.gig .d small{display:block;font-size:10px;font-weight:700;letter-spacing:.12em;color:var(--mute);text-transform:uppercase}
+.gig .d b{display:block;font-size:22px;font-weight:700;margin:2px 0}
+.gig .tx b{display:block;font-size:15.5px;font-weight:600}
+.gig .tx span{font-size:13px;color:var(--mute)}
 .socials{display:flex;justify-content:center;gap:18px;margin:28px 0 8px}
 .socials a{width:36px;height:36px;display:grid;place-items:center;transition:transform .2s}
 .socials a:hover{transform:scale(1.12)}
@@ -120,6 +126,8 @@ footer img{height:22px;width:auto;margin:10px auto 0;opacity:.85}
       <span class="go"><svg viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></svg></span>
     </a>
 
+
+    <div id="upcoming"><h2 data-fr="Prochaines dates" data-en="Upcoming">Prochaines dates</h2><div id="gigs"></div></div>
     <h2 data-fr="Écouter" data-en="Listen">Écouter</h2>
     <a class="row" href="https://soundcloud.com/aldocartii" target="_blank" rel="noopener"><img class="th" src="img/sc.jpg" alt=""><div class="tx"><b>SoundCloud</b><span data-fr="Remixes, live sets, mixes" data-en="Remixes, live sets, mixes">Remixes, live sets, mixes</span></div><svg class="ar" viewBox="0 0 24 24"><path d="M7 17L17 7M9 7h8v8"/></svg></a>
     <a class="row" href="https://open.spotify.com/playlist/5IkbMKC4W7iIO12g5y5BwP" target="_blank" rel="noopener"><img class="th" src="img/spotify.jpg" alt=""><div class="tx"><b>KIAFRICA ELECTRO</b><span data-fr="Ma playlist Spotify" data-en="My Spotify playlist">Ma playlist Spotify</span></div><svg class="ar" viewBox="0 0 24 24"><path d="M7 17L17 7M9 7h8v8"/></svg></a>
@@ -211,7 +219,16 @@ document.querySelectorAll('.vid').forEach(v=>{const vid=v.querySelector('video')
 const lb=document.getElementById('lb');document.querySelectorAll('#photos img').forEach(i=>i.addEventListener('click',()=>{lb.querySelector('img').src=i.src;lb.classList.add('open')}));lb.addEventListener('click',()=>lb.classList.remove('open'));
 let lang=(navigator.language||'fr').startsWith('fr')?'fr':'en';const lb2=document.getElementById('lang');
 function setLang(l){lang=l;document.documentElement.lang=l;document.querySelectorAll('[data-fr]').forEach(e=>{e.innerHTML=e.dataset[l]});lb2.textContent=l==='fr'?'EN':'FR'}
-lb2.addEventListener('click',()=>setLang(lang==='fr'?'en':'fr'));if(lang==='en')setLang('en');
+lb2.addEventListener('click',()=>{setLang(lang==='fr'?'en':'fr');renderGigs()});if(lang==='en')setLang('en');
+
+const GIGS=[
+ {d:"2026-11-15",t:"Le Five",p:"Lattes · Montpellier"},
+ {d:"2026-11-21",t:"BDB Corp · Guest",p:"Arles"},
+ {d:"2026-11-26",t:"Le Five",p:"Lattes · Montpellier"},
+ {d:"2026-11-27",t:"Le Five",p:"Lattes · Montpellier"}
+];
+function renderGigs(){const today=new Date();today.setHours(0,0,0,0);const L=document.documentElement.lang==='en'?'en-GB':'fr-FR';const up=GIGS.filter(g=>new Date(g.d+'T23:59:00')>=today);const box=document.getElementById('gigs');if(!up.length){document.getElementById('upcoming').style.display='none';return}box.innerHTML=up.map(g=>{const dt=new Date(g.d+'T12:00:00');return '<div class="gig"><div class="d"><small>'+dt.toLocaleDateString(L,{weekday:'short'}).replace('.','')+'</small><b>'+dt.getDate()+'</b><small>'+dt.toLocaleDateString(L,{month:'short'}).replace('.','')+'</small></div><div class="tx"><b>'+g.t+'</b><span>'+g.p+'</span></div></div>'}).join('')}
+renderGigs();
 </script>
 </body>
 </html>
