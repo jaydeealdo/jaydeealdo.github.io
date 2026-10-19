@@ -1,205 +1,217 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>DJ ALDO · Press Kit</title>
-<meta name="description" content="DJ ALDO · Red Bull Turn It Up French Champion 2025 · Afro house, amapiano, afrobeats, caribbean, hip-hop · Montpellier, France. Press kit, videos, photos, booking.">
-<meta property="og:title" content="DJ ALDO · Press Kit">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Aldo · DJ · Press Kit</title>
+<meta name="description" content="DJ ALDO · Red Bull Turn It Up French Champion 2025 · Afro house, amapiano, afrobeats, caribbean, hip-hop · Montpellier. Links, press kit, booking.">
+<meta property="og:title" content="Aldo · DJ · Press Kit">
 <meta property="og:description" content="Red Bull Turn It Up French Champion 2025 · Afro house · Amapiano · Afrobeats · Caribbean · Hip-hop">
-<meta property="og:image" content="img/og.jpg">
-<meta property="og:type" content="website">
-<meta name="theme-color" content="#0b0b0b">
+<meta property="og:image" content="https://jaydeealdo.github.io/img/og.jpg">
+<meta name="theme-color" content="#0a0a0a">
 <link rel="icon" href="img/favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
-:root{--bg:#0b0b0b;--fg:#f4f1ec;--mute:#9a958e;--line:#242322;--acc:#e0661b}
+:root{--glass:rgba(255,255,255,.07);--glass2:rgba(255,255,255,.12);--line:rgba(255,255,255,.10);--mute:rgba(255,255,255,.6)}
 *{box-sizing:border-box;margin:0;padding:0}
-html{scroll-behavior:smooth}
-body{background:var(--bg);color:var(--fg);font:16px/1.6 Inter,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+html{-webkit-text-size-adjust:100%}
+body{font-family:"Instrument Sans",ui-sans-serif,system-ui,sans-serif;color:#fff;background:#0a0a0a;min-height:100vh;-webkit-font-smoothing:antialiased;overflow-x:hidden}
 a{color:inherit;text-decoration:none}
 img,video{display:block;max-width:100%}
-.wrap{max-width:1120px;margin:0 auto;padding:0 22px}
-nav{position:fixed;inset:0 0 auto 0;z-index:20;display:flex;justify-content:space-between;align-items:center;padding:16px 22px;transition:background .3s}
-nav.solid{background:rgba(11,11,11,.88);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
-nav .links{display:flex;gap:22px;font-size:13px;font-weight:500;letter-spacing:.06em;text-transform:uppercase}
-nav .links a{opacity:.75}nav .links a:hover{opacity:1}
-.lang{font-size:12px;font-weight:700;letter-spacing:.08em;border:1px solid #fff5;border-radius:99px;padding:4px 10px;cursor:pointer;background:none;color:var(--fg)}
-.brand img{height:26px;width:auto}
-header.hero{position:relative;height:100svh;min-height:560px;display:flex;align-items:flex-end;overflow:hidden}
-.hero>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 30%}
-.hero:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(11,11,11,.15) 0%,rgba(11,11,11,.1) 45%,rgba(11,11,11,.95) 100%)}
-.hero .inner{position:relative;z-index:2;padding-bottom:9vh;width:100%}
-.hero .logo{width:min(560px,82vw);height:auto;filter:drop-shadow(0 6px 24px rgba(0,0,0,.35))}
-.tag{margin-top:18px;font-size:clamp(14px,1.6vw,17px);letter-spacing:.14em;text-transform:uppercase;font-weight:500;opacity:.9}
-.badge{display:inline-flex;gap:8px;align-items:center;margin-top:14px;font-size:13px;font-weight:700;letter-spacing:.04em;background:var(--fg);color:#111;padding:7px 13px;border-radius:99px}
-.cta{display:flex;gap:12px;margin-top:26px;flex-wrap:wrap}
-.btn{display:inline-block;padding:13px 22px;border-radius:99px;font-weight:700;font-size:14px;letter-spacing:.03em;border:1px solid var(--fg);transition:.2s}
-.btn.fill{background:var(--fg);color:#111}.btn:hover{transform:translateY(-1px);opacity:.9}
-section{padding:96px 0;border-top:1px solid var(--line)}
-h2{font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:var(--mute);font-weight:500;margin-bottom:28px}
-.lead{font-size:clamp(20px,2.6vw,30px);line-height:1.35;font-weight:500;max-width:880px}
-.lead b{font-weight:900}
-.bio{display:grid;grid-template-columns:1.25fr 1fr;gap:56px;margin-top:40px;color:#d8d3cc}
-.bio p+p{margin-top:14px}
-.facts{list-style:none;border-top:1px solid var(--line)}
-.facts li{display:flex;justify-content:space-between;gap:18px;padding:13px 0;border-bottom:1px solid var(--line);font-size:14px}
-.facts span:first-child{color:var(--mute)}.facts span:last-child{text-align:right;font-weight:500}
-.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:26px}
-.chips span{border:1px solid #3a3836;border-radius:99px;padding:6px 13px;font-size:13px}
-.vids{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
-.vid{position:relative;border-radius:14px;overflow:hidden;background:#161514;aspect-ratio:9/16;cursor:pointer}
-.vid.wide{grid-column:span 3;aspect-ratio:16/9}
+/* background like Sownd: sharp photo on mobile, blurred photo on desktop */
+.bg{position:absolute;left:0;right:0;top:0;height:100svh;z-index:-2;overflow:hidden}
+.bg img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 25%}
+.bg .blur{filter:blur(40px);transform:scale(1.1);display:none}
+.bg:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.05) 0%,rgba(0,0,0,.35) 30%,rgba(10,10,10,.9) 70%,#0a0a0a 100%)}
+@media (min-width:900px){.bg{position:fixed;inset:0;height:auto}.bg .sharp{display:none}.bg .blur{display:block}.bg:after{background:rgba(0,0,0,.45);backdrop-filter:blur(6px)}}
+.lang{position:fixed;top:14px;right:14px;z-index:10;font:700 11px/1 "Instrument Sans";letter-spacing:.12em;color:#fff;background:rgba(0,0,0,.35);border:1px solid rgba(255,255,255,.18);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);padding:8px 11px;border-radius:99px;cursor:pointer}
+main{max-width:500px;margin:0 auto;padding:22vh 16px 40px}
+@media (min-width:900px){main{padding-top:64px}}
+.head{text-align:center;margin-bottom:22px}
+.avatar{width:84px;height:84px;border-radius:50%;object-fit:cover;object-position:50% 12%;margin:0 auto 12px;box-shadow:0 0 0 1px rgba(255,255,255,.25),0 8px 30px rgba(0,0,0,.35)}
+.eyebrow{font-size:10px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:rgba(255,255,255,.75);text-shadow:0 1px 3px rgba(0,0,0,.6)}
+h1{font-size:30px;font-weight:700;letter-spacing:-.02em;margin-top:4px;text-shadow:0 2px 12px rgba(0,0,0,.45);display:flex;align-items:center;justify-content:center;gap:8px}
+h1 .ok{width:20px;height:20px;border-radius:50%;background:#f0a020;display:inline-grid;place-items:center}
+h1 .ok svg{width:12px;height:12px;fill:#fff}
+.sub{font-size:14px;color:rgba(255,255,255,.8);margin-top:4px;text-shadow:0 1px 6px rgba(0,0,0,.6)}
+.tabs{display:inline-flex;margin-top:18px;padding:5px;border-radius:99px;background:rgba(10,10,10,.55);border:1px solid rgba(255,255,255,.08);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px)}
+.tabs button{all:unset;cursor:pointer;font-size:13px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;padding:10px 20px;border-radius:99px;color:rgba(255,255,255,.65);transition:.2s}
+.tabs button.on{background:rgba(255,255,255,.14);color:#fff}
+.panel{display:none}.panel.on{display:block;animation:up .35s ease both}
+@keyframes up{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+h2{font-size:10px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:rgba(255,255,255,.6);margin:26px 2px 10px}
+.feat{position:relative;display:block;border-radius:16px;overflow:hidden;aspect-ratio:16/11;background:#111;box-shadow:0 10px 40px rgba(0,0,0,.35)}
+.feat img,.feat video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.feat:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 35%,rgba(0,0,0,.85))}
+.feat .t{position:absolute;left:20px;right:70px;bottom:18px;z-index:2}
+.feat .t b{display:block;font-size:20px;line-height:1.2;font-weight:700}
+.feat .t span{font-size:14px;color:rgba(255,255,255,.75)}
+.feat .go{position:absolute;right:16px;bottom:18px;z-index:2;width:40px;height:40px;border-radius:50%;background:rgba(255,255,255,.14);backdrop-filter:blur(10px);display:grid;place-items:center}
+.feat .go svg{width:16px;height:16px;stroke:#fff;fill:none;stroke-width:2.2}
+.feat .tag{position:absolute;left:14px;top:14px;z-index:2;font-size:10px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;background:rgba(10,10,10,.75);padding:5px 9px;border-radius:8px}
+.row{display:flex;align-items:center;gap:14px;padding:10px 14px 10px 10px;border-radius:12px;background:var(--glass);backdrop-filter:blur(24px);-webkit-backdrop-filter:blur(24px);margin-bottom:8px;transition:background .2s,transform .2s}
+.row:hover{background:var(--glass2);transform:translateY(-1px)}
+.row .th{width:44px;height:44px;border-radius:9px;object-fit:cover;flex:none;background:#222}
+.row .ic{width:44px;height:44px;border-radius:9px;flex:none;display:grid;place-items:center;background:rgba(255,255,255,.08)}
+.row .ic svg{width:20px;height:20px;fill:#fff}
+.row .tx{flex:1;min-width:0}
+.row .tx b{display:block;font-size:15px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.row .tx span{display:block;font-size:12.5px;color:var(--mute);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.row .ar{width:16px;height:16px;stroke:rgba(255,255,255,.5);fill:none;stroke-width:2;flex:none}
+.socials{display:flex;justify-content:center;gap:18px;margin:28px 0 8px}
+.socials a{width:36px;height:36px;display:grid;place-items:center;transition:transform .2s}
+.socials a:hover{transform:scale(1.12)}
+.socials svg{width:21px;height:21px;fill:#fff;filter:drop-shadow(0 1px 3px rgba(0,0,0,.6))}
+.card{border-radius:14px;background:var(--glass);backdrop-filter:blur(24px);-webkit-backdrop-filter:blur(24px);padding:18px}
+.card p{font-size:14.5px;line-height:1.6;color:rgba(255,255,255,.85)}
+.card p+p{margin-top:10px}
+.facts{margin-top:14px;border-top:1px solid var(--line)}
+.facts div{display:flex;justify-content:space-between;gap:14px;padding:10px 0;border-bottom:1px solid var(--line);font-size:13px}
+.facts div span:first-child{color:var(--mute)}.facts div span:last-child{text-align:right;font-weight:600}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:14px}
+.chips span{font-size:12px;padding:5px 10px;border-radius:99px;background:rgba(255,255,255,.08)}
+.vids{display:flex;gap:10px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:6px;margin:0 -16px;padding-left:16px;padding-right:16px;scrollbar-width:none}
+.vids::-webkit-scrollbar{display:none}
+.vid{position:relative;flex:0 0 46%;aspect-ratio:9/16;border-radius:14px;overflow:hidden;background:#111;scroll-snap-align:start;cursor:pointer}
 .vid video{width:100%;height:100%;object-fit:cover}
-.vid .cap{position:absolute;left:0;right:0;bottom:0;padding:34px 14px 12px;font-size:13px;font-weight:700;letter-spacing:.03em;background:linear-gradient(transparent,rgba(0,0,0,.75));pointer-events:none;transition:opacity .3s}
-.vid .play{position:absolute;inset:0;display:grid;place-items:center;pointer-events:none;transition:opacity .3s}
-.vid .play i{width:62px;height:62px;border-radius:50%;background:rgba(244,241,236,.92);display:grid;place-items:center}
-.vid .play i:after{content:"";border-left:17px solid #111;border-top:11px solid transparent;border-bottom:11px solid transparent;margin-left:5px}
-.vid.on .play,.vid.on .cap{opacity:0}
-.music{display:grid;grid-template-columns:1fr 1fr;gap:14px}
-.music.one{grid-template-columns:1fr}
-.dl a b{font-weight:700}
-.music iframe{width:100%;border:0;border-radius:14px;background:#161514}
-.grid{columns:3 260px;column-gap:12px}
-.grid img{width:100%;margin-bottom:12px;border-radius:10px;cursor:zoom-in;transition:opacity .2s}
-.grid img:hover{opacity:.88}
-.more{margin-top:26px;display:flex;gap:12px;flex-wrap:wrap}
-.orgs{display:grid;grid-template-columns:1fr 1fr;gap:14px}
-.org{display:flex;gap:20px;align-items:center;border:1px solid var(--line);border-radius:16px;padding:22px;transition:.2s}
-.org:hover{border-color:#4a4744;background:#121110}
-.org img{width:84px;height:84px;border-radius:50%;object-fit:cover;flex:none}
-.org h3{font-size:20px;font-weight:900;letter-spacing:.02em}
-.org p{font-size:14px;color:#bdb7af;margin-top:4px}
-.org small{display:block;margin-top:8px;font-size:12px;color:var(--acc);font-weight:700;letter-spacing:.06em}
-.dl{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
-.dl a{border:1px solid var(--line);border-radius:14px;padding:20px;display:flex;justify-content:space-between;align-items:center;font-weight:700;transition:.2s}
-.dl a:hover{background:#121110;border-color:#4a4744}
-.dl a span{font-size:12px;color:var(--mute);font-weight:500}
-.contact{text-align:center}
-.contact .big{font-size:clamp(30px,6vw,64px);font-weight:900;letter-spacing:-.01em;line-height:1.05}
-.contact .cta{justify-content:center}
-.socials{display:flex;justify-content:center;gap:12px;margin-top:40px;flex-wrap:wrap}
-.socials a{width:48px;height:48px;border-radius:50%;border:1px solid #3a3836;display:grid;place-items:center;transition:.2s}
-.socials a:hover{background:var(--fg);color:#111}
-.socials svg{width:20px;height:20px;fill:currentColor}
-footer{padding:34px 0 46px;text-align:center;color:var(--mute);font-size:12px;letter-spacing:.06em}
-.lb{position:fixed;inset:0;z-index:50;background:rgba(0,0,0,.94);display:none;align-items:center;justify-content:center;padding:20px;cursor:zoom-out}
-.lb.open{display:flex}.lb img{max-height:92vh;max-width:94vw;border-radius:8px}
-[data-fr]{}
-@media (max-width:820px){
- nav .links{display:none}
- .bio,.music,.orgs,.dl{grid-template-columns:1fr}
- .vids{grid-template-columns:1fr 1fr}.vid.wide{grid-column:span 2}
- section{padding:72px 0}
- .hero>img{object-position:68% 30%}
-}
+.vid .cap{position:absolute;left:0;right:0;bottom:0;padding:30px 12px 10px;font-size:12.5px;font-weight:600;background:linear-gradient(transparent,rgba(0,0,0,.8));pointer-events:none;transition:opacity .3s}
+.vid .pl{position:absolute;inset:0;display:grid;place-items:center;pointer-events:none;transition:opacity .3s}
+.vid .pl i{width:46px;height:46px;border-radius:50%;background:rgba(255,255,255,.2);backdrop-filter:blur(10px);display:grid;place-items:center}
+.vid .pl i:after{content:"";border-left:13px solid #fff;border-top:8px solid transparent;border-bottom:8px solid transparent;margin-left:4px}
+.vid.on .pl,.vid.on .cap{opacity:0}
+.photos{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.photos img{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:12px;cursor:zoom-in}
+.book{text-align:center}
+.book .mail{font-size:22px;font-weight:700;letter-spacing:-.01em;margin:6px 0 16px;word-break:break-all}
+.btns{display:grid;gap:8px}
+.btn{display:block;padding:14px;border-radius:12px;font-weight:600;font-size:15px;background:rgba(255,255,255,.1);backdrop-filter:blur(20px);transition:.2s}
+.btn.w{background:#fff;color:#0a0a0a}
+.btn:hover{opacity:.88}
+footer{text-align:center;margin-top:46px}
+footer b{display:block;font-size:10px;letter-spacing:.2em;color:rgba(255,255,255,.45);font-weight:700}
+footer img{height:22px;width:auto;margin:10px auto 0;opacity:.85}
+.lb{position:fixed;inset:0;z-index:50;background:rgba(0,0,0,.92);backdrop-filter:blur(10px);display:none;align-items:center;justify-content:center;padding:16px;cursor:zoom-out}
+.lb.open{display:flex}.lb img{max-height:92vh;border-radius:10px}
 </style>
 </head>
 <body>
-<nav id="nav">
-  <a class="brand" href="#top"><img src="img/logo.png" alt="DJ ALDO"></a>
-  <div class="links"><a href="#about" data-en="About" data-fr="Bio">About</a><a href="#videos" data-en="Videos" data-fr="Vidéos">Videos</a><a href="#music" data-en="Music" data-fr="Musique">Music</a><a href="#photos">Photos</a><a href="#projects" data-en="Projects" data-fr="Projets">Projects</a><a href="#booking">Booking</a></div>
-  <button class="lang" id="lang">FR</button>
-</nav>
+<div class="bg"><img class="sharp" src="img/p04.jpg" alt=""><img class="blur" src="img/bg.jpg" alt=""></div>
+<button class="lang" id="lang">EN</button>
 
-<header class="hero" id="top">
-  <img src="img/hero.jpg" alt="DJ Aldo lifting the Red Bull Turn It Up trophy">
-  <div class="inner wrap">
-    <img class="logo" src="img/logo.png" alt="DJ ALDO">
-    <div class="tag">DJ · Producer · Montpellier, France</div>
-    <div class="badge">🏆 <span data-en="Red Bull Turn It Up · French Champion 2025" data-fr="Red Bull Turn It Up · Champion de France 2025">Red Bull Turn It Up · French Champion 2025</span></div>
-    <div class="cta"><a class="btn fill" href="#booking" data-en="Book Aldo" data-fr="Booker Aldo">Book Aldo</a><a class="btn" href="#videos" data-en="Watch" data-fr="Voir les vidéos">Watch</a></div>
-  </div>
-</header>
-
-<section id="about"><div class="wrap">
-  <h2 data-en="About" data-fr="Bio">About</h2>
-  <p class="lead" data-en="Caribbean vibes meet African electronic music. <b>Afro house, amapiano, afrobeats, gqom, kuduro</b>, with hip-hop and R&amp;B roots. One goal: make people dance and connect." data-fr="Les vibrations caribéennes rencontrent la musique électronique africaine. <b>Afro house, amapiano, afrobeat, gqom, kuduro</b>, avec des racines hip-hop et R&amp;B. Un seul objectif : faire danser et rassembler.">Caribbean vibes meet African electronic music. <b>Afro house, amapiano, afrobeats, gqom, kuduro</b>, with hip-hop and R&amp;B roots. One goal: make people dance and connect.</p>
-  <div class="bio">
-    <div>
-      <p data-en="Known as Aldo, Aldel was born in Paris and grew up with the sound of vinyl. He started on the hip-hop and R&amp;B scene, where he learned to read a crowd and turn every set into an experience, before building his identity as a resident at L'Entrepôt and Le Five in Montpellier." data-fr="Aldel, alias Aldo, est né à Paris et a grandi avec le son des vinyles. Il a commencé sur la scène hip-hop et R&amp;B, où il a appris à lire le public et à transformer chaque set en expérience, avant de construire son identité en résidence à L'Entrepôt et au Five à Montpellier.">Known as Aldo, Aldel was born in Paris and grew up with the sound of vinyl. He started on the hip-hop and R&amp;B scene, where he learned to read a crowd and turn every set into an experience, before building his identity as a resident at L'Entrepôt and Le Five in Montpellier.</p>
-      <p data-en="He won his first Red Bull Turn It Up battle at Delta Festival in Marseille, then the French final on the Warehouse stage in Nantes. He has played concert stages like the Rockstore and La Rayonne, and on Rinse France. Through his own events, TSARA'JAB and KIAFRIKA, he brings the sounds of his Malagasy roots to ever wider crowds." data-fr="Il remporte son premier Red Bull Turn It Up au Delta Festival à Marseille, puis la finale France sur la scène du Warehouse à Nantes. Il a joué sur des scènes comme le Rockstore et La Rayonne, et sur Rinse France. Avec ses propres événements, TSARA'JAB et KIAFRIKA, il fait voyager les sons de Madagascar, son pays d'origine, devant des publics toujours plus larges.">He won his first Red Bull Turn It Up battle at Delta Festival in Marseille, then the French final on the Warehouse stage in Nantes. He has played concert stages like the Rockstore and La Rayonne, and on Rinse France. Through his own events, TSARA'JAB and KIAFRIKA, he brings the sounds of his Malagasy roots to ever wider crowds.</p>
+<main>
+  <div class="head">
+    <img class="avatar" src="img/p01.jpg" alt="Aldo">
+    <div class="eyebrow" data-fr="Red Bull Turn It Up · Champion de France 2025" data-en="Red Bull Turn It Up · French Champion 2025">Red Bull Turn It Up · Champion de France 2025</div>
+    <h1>Aldo</h1>
+    <div class="sub">DJ · Afro house · Amapiano · Montpellier</div>
+    <div class="tabs" id="tabs">
+      <button data-p="links" class="on" data-fr="Liens" data-en="Links">Liens</button>
+      <button data-p="kit" data-fr="Kit presse" data-en="Press kit">Kit presse</button>
+      <button data-p="book">Book</button>
     </div>
-    <ul class="facts">
-      <li><span data-en="Title" data-fr="Titre">Title</span><span data-en="Red Bull Turn It Up · French Champion 2025" data-fr="Red Bull Turn It Up · Champion de France 2025">Red Bull Turn It Up · French Champion 2025</span></li>
-      <li><span>Radio</span><span data-en="Played on Rinse France" data-fr="A joué sur Rinse France">Played on Rinse France</span></li>
-      <li><span data-en="Stages" data-fr="Scènes">Stages</span><span>Delta Festival · Warehouse · Rockstore · La Rayonne</span></li>
-      <li><span data-en="Played in" data-fr="A joué à">Played in</span><span>Paris · Lyon · Marseille · Nantes · Madrid · Milan · Göteborg · Guinea</span></li>
-      <li><span data-en="Based in" data-fr="Basé à">Based in</span><span>Montpellier, France</span></li>
-      <li><span data-en="Set" data-fr="Set">Set</span><span data-en="1h to 3h · open format on request" data-fr="1h à 3h · open format sur demande">1h to 3h · open format on request</span></li>
-    </ul>
   </div>
-  <div class="chips"><span>Afro house</span><span>Amapiano</span><span>Afrobeats</span><span>Gqom</span><span>Xagatech</span><span>Kuduro</span><span>Caribbean</span><span>Hip-hop</span><span>R&amp;B</span><span>Open format</span></div>
-</div></section>
 
-<section id="videos"><div class="wrap">
-  <h2 data-en="Videos" data-fr="Vidéos">Videos</h2>
-  <div class="vids">
-    <div class="vid"><video playsinline preload="none" poster="video/aftermovie.jpg" src="video/aftermovie.mp4"></video><div class="play"><i></i></div><div class="cap">Aftermovie</div></div>
-    <div class="vid"><video playsinline preload="none" poster="video/transition.jpg" src="video/transition.mp4"></video><div class="play"><i></i></div><div class="cap" data-en="Signature transition" data-fr="Ma transition classique">Signature transition</div></div>
-    <div class="vid"><video playsinline preload="none" poster="video/larayonne.jpg" src="video/larayonne.mp4"></video><div class="play"><i></i></div><div class="cap">La Rayonne · Lyon</div></div>
-    <div class="vid"><video playsinline preload="none" poster="video/tank-lyon.jpg" src="video/tank-lyon.mp4"></video><div class="play"><i></i></div><div class="cap">Tank · Lyon</div></div>
-    <div class="vid"><video playsinline preload="none" poster="video/casita.jpg" src="video/casita.mp4"></video><div class="play"><i></i></div><div class="cap">Casita</div></div>
-    <div class="vid"><video playsinline preload="none" poster="video/redbull.jpg" src="video/redbull.mp4"></video><div class="play"><i></i></div><div class="cap">Red Bull Turn It Up</div></div>
-  </div>
-</div></section>
+  <!-- LINKS -->
+  <section class="panel on" id="links">
+    <a class="feat" href="https://soundcloud.com/aldocartii/sets/aldo-remix-vol-1" target="_blank" rel="noopener">
+      <img src="img/ep.jpg" alt="ALDO REMIX VOL.1"><span class="tag" data-fr="Nouveau" data-en="New">Nouveau</span>
+      <div class="t"><b>SUGAR ON MY TONGUE (ALDO XAGATECH REMIX)</b><span>ALDO REMIX VOL.1 · SoundCloud</span></div>
+      <span class="go"><svg viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></svg></span>
+    </a>
 
-<section id="music"><div class="wrap">
-  <h2 data-en="Music" data-fr="Musique">Music</h2>
-  <div class="music one">
-    <iframe height="420" allow="autoplay" loading="lazy" src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/aldocartii&color=%23e0661b&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false&visual=false"></iframe>
-  </div>
-  <div class="more"><a class="btn" href="https://soundcloud.com/aldocartii" target="_blank" rel="noopener">SoundCloud</a><a class="btn" href="https://www.youtube.com/@aldo4422" target="_blank" rel="noopener">YouTube</a></div>
-</div></section>
+    <h2 data-fr="Écouter" data-en="Listen">Écouter</h2>
+    <a class="row" href="https://soundcloud.com/aldocartii" target="_blank" rel="noopener"><img class="th" src="img/sc.jpg" alt=""><div class="tx"><b>SoundCloud</b><span data-fr="Remixes, live sets, mixes" data-en="Remixes, live sets, mixes">Remixes, live sets, mixes</span></div><svg class="ar" viewBox="0 0 24 24"><path d="M7 17L17 7M9 7h8v8"/></svg></a>
+    <a class="row" href="https://open.spotify.com/playlist/5IkbMKC4W7iIO12g5y5BwP" target="_blank" rel="noopener"><img class="th" src="img/spotify.jpg" alt=""><div class="tx"><b>KIAFRICA ELECTRO</b><span data-fr="Ma playlist Spotify" data-en="My Spotify playlist">Ma playlist Spotify</span></div><svg class="ar" viewBox="0 0 24 24"><path d="M7 17L17 7M9 7h8v8"/></svg></a>
+    <a class="row" href="https://www.youtube.com/@aldo4422" target="_blank" rel="noopener"><img class="th" src="video/transition.jpg" alt=""><div class="tx"><b>YouTube</b><span data-fr="Sets et visualisers" data-en="Sets and visualisers">Sets et visualisers</span></div><svg class="ar" viewBox="0 0 24 24"><path d="M7 17L17 7M9 7h8v8"/></svg></a>
 
-<section id="photos"><div class="wrap">
-  <h2>Photos</h2>
-  <div class="grid" id="grid">
-    <img loading="lazy" src="img/p01.jpg" alt="DJ Aldo"><img loading="lazy" src="img/p02.jpg" alt="DJ Aldo"><img loading="lazy" src="img/p03.jpg" alt="DJ Aldo"><img loading="lazy" src="img/p04.jpg" alt="DJ Aldo"><img loading="lazy" src="img/p05.jpg" alt="DJ Aldo"><img loading="lazy" src="img/p06.jpg" alt="DJ Aldo"><img loading="lazy" src="img/p07.jpg" alt="DJ Aldo"><img loading="lazy" src="img/p08.jpg" alt="DJ Aldo"><img loading="lazy" src="img/p09.jpg" alt="DJ Aldo"><img loading="lazy" src="img/p10.jpg" alt="DJ Aldo"><img loading="lazy" src="img/p11.jpg" alt="DJ Aldo"><img loading="lazy" src="img/p12.jpg" alt="DJ Aldo">
-  </div>
-  <div class="more"><a class="btn fill" href="https://drive.google.com/drive/folders/1-CrHGYB8jTm2wJfXRqMhWqRJYmyt_7cm" target="_blank" rel="noopener" data-en="HD photos &amp; videos (Drive)" data-fr="Photos &amp; vidéos HD (Drive)">HD photos &amp; videos (Drive)</a></div>
-</div></section>
+    <h2 data-fr="Mes projets" data-en="My projects">Mes projets</h2>
+    <a class="row" href="https://www.instagram.com/tsarajab/" target="_blank" rel="noopener"><img class="th" src="img/org-tsarajab.jpg" alt=""><div class="tx"><b>TSARA'JAB 🇲🇬</b><span data-fr="Mon concept de soirées · Montpellier" data-en="My event concept · Montpellier">Mon concept de soirées · Montpellier</span></div><svg class="ar" viewBox="0 0 24 24"><path d="M7 17L17 7M9 7h8v8"/></svg></a>
+    <a class="row" href="https://www.instagram.com/kiafrika.beats/" target="_blank" rel="noopener"><img class="th" src="img/org-kiafrika.jpg" alt=""><div class="tx"><b>KIAFRIKA 🌍</b><span data-fr="Afro open air · Willie Carter Sharpe" data-en="Afro open air · Willie Carter Sharpe">Afro open air · Willie Carter Sharpe</span></div><svg class="ar" viewBox="0 0 24 24"><path d="M7 17L17 7M9 7h8v8"/></svg></a>
 
-<section id="projects"><div class="wrap">
-  <h2 data-en="Projects" data-fr="Projets">Projects</h2>
-  <div class="orgs">
-    <a class="org" href="https://www.instagram.com/tsarajab/" target="_blank" rel="noopener"><img src="img/org-tsarajab.jpg" alt="TSARA'JAB"><div><h3>TSARA'JAB 🇲🇬</h3><p data-en="His own event concept in Montpellier: DJs from all over France, a warm family energy, and the sounds of Madagascar." data-fr="Son concept d'événements à Montpellier : des DJs de toute la France, une énergie chaleureuse et familiale, et les sons de Madagascar.">His own event concept in Montpellier: DJs from all over France, a warm family energy, and the sounds of Madagascar.</p><small data-en="FOUNDER · @TSARAJAB" data-fr="FONDATEUR · @TSARAJAB">FOUNDER · @TSARAJAB</small></div></a>
-    <a class="org" href="https://www.instagram.com/kiafrika.beats/" target="_blank" rel="noopener"><img src="img/org-kiafrika.jpg" alt="KIAFRIKA"><div><h3>KIAFRIKA 🌍</h3><p data-en="Afro open air in Montpellier, at Willie Carter Sharpe · Marché du Lez. A full year of free afro nights." data-fr="Afro open air à Montpellier, au Willie Carter Sharpe · Marché du Lez. Une année entière de soirées afro gratuites.">Afro open air in Montpellier, at Willie Carter Sharpe · Marché du Lez. A full year of free afro nights.</p><small data-en="FOUNDER · @KIAFRIKA.BEATS" data-fr="FONDATEUR · @KIAFRIKA.BEATS">FOUNDER · @KIAFRIKA.BEATS</small></div></a>
-  </div>
-</div></section>
+    <h2 data-fr="Pros" data-en="Pros">Pros</h2>
+    <a class="row" href="#kit" data-tab="kit"><img class="th" src="img/hero.jpg" alt=""><div class="tx"><b data-fr="Kit presse" data-en="Press kit">Kit presse</b><span data-fr="Bio, vidéos, photos, PDF" data-en="Bio, videos, photos, PDF">Bio, vidéos, photos, PDF</span></div><svg class="ar" viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></svg></a>
+    <a class="row" href="#book" data-tab="book"><div class="ic"><svg viewBox="0 0 24 24"><path d="M20 4H4a2 2 0 00-2 2v12a2 2 0 002 2h16a2 2 0 002-2V6a2 2 0 00-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg></div><div class="tx"><b>Booking</b><span>aldeltag@gmail.com</span></div><svg class="ar" viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></svg></a>
+  </section>
 
-<section id="downloads"><div class="wrap">
-  <h2 data-en="Downloads" data-fr="Téléchargements">Downloads</h2>
-  <div class="dl">
-    <a href="docs/DJ-ALDO-press-kit-EN.pdf" target="_blank">Press kit EN <span>PDF ↓</span></a>
-    <a href="docs/DJ-ALDO-press-kit-FR.pdf" target="_blank">Press kit FR <span>PDF ↓</span></a>
-    <a href="docs/DJ-ALDO-rider.pdf" target="_blank"><b data-en="Rider" data-fr="Fiche technique">Rider</b> <span>PDF ↓</span></a>
-  </div>
-</div></section>
+  <!-- PRESS KIT -->
+  <section class="panel" id="kit">
+    <h2>Bio</h2>
+    <div class="card">
+      <p data-fr="Aldo mélange vibrations caribéennes et musique électronique africaine : afro house, amapiano, afrobeat, gqom, xagatech, kuduro, avec des racines hip-hop et R&amp;B. Un seul objectif : faire danser et rassembler." data-en="Aldo blends Caribbean vibes with African electronic music: afro house, amapiano, afrobeats, gqom, xagatech, kuduro, with hip-hop and R&amp;B roots. One goal: make people dance and connect.">Aldo mélange vibrations caribéennes et musique électronique africaine : afro house, amapiano, afrobeat, gqom, xagatech, kuduro, avec des racines hip-hop et R&amp;B. Un seul objectif : faire danser et rassembler.</p>
+      <p data-fr="Résident à L'Entrepôt et au Five à Montpellier, il remporte le Red Bull Turn It Up au Delta Festival puis la finale France au Warehouse de Nantes. Il a joué au Rockstore, à La Rayonne et sur Rinse France, et fait voyager les sons de Madagascar avec ses soirées TSARA'JAB et KIAFRIKA." data-en="A resident at L'Entrepôt and Le Five in Montpellier, he won Red Bull Turn It Up at Delta Festival, then the French final at the Warehouse in Nantes. He has played the Rockstore, La Rayonne and Rinse France, and brings the sounds of Madagascar to new crowds with his events TSARA'JAB and KIAFRIKA.">Résident à L'Entrepôt et au Five à Montpellier, il remporte le Red Bull Turn It Up au Delta Festival puis la finale France au Warehouse de Nantes. Il a joué au Rockstore, à La Rayonne et sur Rinse France, et fait voyager les sons de Madagascar avec ses soirées TSARA'JAB et KIAFRIKA.</p>
+      <div class="facts">
+        <div><span data-fr="Titre" data-en="Title">Titre</span><span data-fr="Champion de France Red Bull Turn It Up 2025" data-en="Red Bull Turn It Up French Champion 2025">Champion de France Red Bull Turn It Up 2025</span></div>
+        <div><span>Radio</span><span>Rinse France</span></div>
+        <div><span data-fr="Scènes" data-en="Stages">Scènes</span><span>Delta Festival · Warehouse · Rockstore · La Rayonne</span></div>
+        <div><span data-fr="A joué à" data-en="Played in">A joué à</span><span>Paris · Lyon · Marseille · Madrid · Milan · Göteborg · Guinée</span></div>
+        <div><span>Set</span><span data-fr="1h à 3h · open format possible" data-en="1h to 3h · open format on request">1h à 3h · open format possible</span></div>
+      </div>
+      <div class="chips"><span>Afro house</span><span>Amapiano</span><span>Afrobeats</span><span>Gqom</span><span>Xagatech</span><span>Kuduro</span><span>Caribbean</span><span>Hip-hop</span><span>R&amp;B</span></div>
+    </div>
 
-<section id="booking" class="contact"><div class="wrap">
-  <h2>Booking</h2>
-  <div class="big">aldeltag@gmail.com</div>
-  <div class="cta"><a class="btn fill" href="mailto:aldeltag@gmail.com?subject=Booking%20DJ%20Aldo">Email</a><a class="btn" href="https://wa.me/33671454798" target="_blank" rel="noopener">WhatsApp +33 6 71 45 47 98</a><a class="btn" href="https://ig.me/m/jaydeealdo" target="_blank" rel="noopener">Instagram DM</a></div>
+    <h2 data-fr="Vidéos" data-en="Videos">Vidéos</h2>
+    <div class="vids">
+      <div class="vid"><video playsinline preload="none" poster="video/aftermovie.jpg" src="video/aftermovie.mp4"></video><div class="pl"><i></i></div><div class="cap">Aftermovie</div></div>
+      <div class="vid"><video playsinline preload="none" poster="video/transition.jpg" src="video/transition.mp4"></video><div class="pl"><i></i></div><div class="cap" data-fr="Ma transition classique" data-en="Signature transition">Ma transition classique</div></div>
+      <div class="vid"><video playsinline preload="none" poster="video/redbull.jpg" src="video/redbull.mp4"></video><div class="pl"><i></i></div><div class="cap">Red Bull Turn It Up</div></div>
+      <div class="vid"><video playsinline preload="none" poster="video/larayonne.jpg" src="video/larayonne.mp4"></video><div class="pl"><i></i></div><div class="cap">La Rayonne · Lyon</div></div>
+      <div class="vid"><video playsinline preload="none" poster="video/tank-lyon.jpg" src="video/tank-lyon.mp4"></video><div class="pl"><i></i></div><div class="cap">Tank · Lyon</div></div>
+      <div class="vid"><video playsinline preload="none" poster="video/casita.jpg" src="video/casita.mp4"></video><div class="pl"><i></i></div><div class="cap">Casita</div></div>
+    </div>
+
+    <h2>Photos</h2>
+    <div class="photos" id="photos">
+      <img loading="lazy" src="img/hero.jpg" alt=""><img loading="lazy" src="img/p01.jpg" alt=""><img loading="lazy" src="img/p03.jpg" alt=""><img loading="lazy" src="img/p04.jpg" alt=""><img loading="lazy" src="img/p02.jpg" alt=""><img loading="lazy" src="img/p05.jpg" alt=""><img loading="lazy" src="img/p06.jpg" alt=""><img loading="lazy" src="img/p09.jpg" alt=""><img loading="lazy" src="img/p08.jpg" alt=""><img loading="lazy" src="img/p07.jpg" alt="">
+    </div>
+
+    <h2 data-fr="Télécharger" data-en="Downloads">Télécharger</h2>
+    <a class="row" href="docs/DJ-ALDO-press-kit-FR.pdf" target="_blank"><div class="ic"><svg viewBox="0 0 24 24"><path d="M6 2h9l5 5v15H4V2h2zm8 1.5V8h4.5L14 3.5zM12 18l4-4h-3v-4h-2v4H8l4 4z"/></svg></div><div class="tx"><b>Press kit FR</b><span>PDF</span></div><svg class="ar" viewBox="0 0 24 24"><path d="M12 5v14M5 12l7 7 7-7"/></svg></a>
+    <a class="row" href="docs/DJ-ALDO-press-kit-EN.pdf" target="_blank"><div class="ic"><svg viewBox="0 0 24 24"><path d="M6 2h9l5 5v15H4V2h2zm8 1.5V8h4.5L14 3.5zM12 18l4-4h-3v-4h-2v4H8l4 4z"/></svg></div><div class="tx"><b>Press kit EN</b><span>PDF</span></div><svg class="ar" viewBox="0 0 24 24"><path d="M12 5v14M5 12l7 7 7-7"/></svg></a>
+    <a class="row" href="docs/DJ-ALDO-rider.pdf" target="_blank"><div class="ic"><svg viewBox="0 0 24 24"><path d="M6 2h9l5 5v15H4V2h2zm8 1.5V8h4.5L14 3.5zM12 18l4-4h-3v-4h-2v4H8l4 4z"/></svg></div><div class="tx"><b data-fr="Fiche technique &amp; accueil" data-en="Technical &amp; hospitality rider">Fiche technique &amp; accueil</b><span>PDF</span></div><svg class="ar" viewBox="0 0 24 24"><path d="M12 5v14M5 12l7 7 7-7"/></svg></a>
+    <a class="row" href="https://drive.google.com/drive/folders/1-CrHGYB8jTm2wJfXRqMhWqRJYmyt_7cm" target="_blank" rel="noopener"><div class="ic"><svg viewBox="0 0 24 24"><path d="M4 5h5l2 2h9v12H4z"/></svg></div><div class="tx"><b data-fr="Photos &amp; vidéos HD" data-en="HD photos &amp; videos">Photos &amp; vidéos HD</b><span>Google Drive</span></div><svg class="ar" viewBox="0 0 24 24"><path d="M7 17L17 7M9 7h8v8"/></svg></a>
+  </section>
+
+  <!-- BOOK -->
+  <section class="panel" id="book">
+    <h2>Booking</h2>
+    <div class="card book">
+      <div class="eyebrow" data-fr="Clubs · festivals · radios · privé" data-en="Clubs · festivals · radios · private">Clubs · festivals · radios · privé</div>
+      <div class="mail">aldeltag@gmail.com</div>
+      <div class="btns">
+        <a class="btn w" href="mailto:aldeltag@gmail.com?subject=Booking%20DJ%20Aldo" data-fr="Envoyer un email" data-en="Send an email">Envoyer un email</a>
+        <a class="btn" href="https://wa.me/33671454798" target="_blank" rel="noopener">WhatsApp · +33 6 71 45 47 98</a>
+        <a class="btn" href="https://ig.me/m/jaydeealdo" target="_blank" rel="noopener">Instagram DM</a>
+      </div>
+    </div>
+    <h2 data-fr="Pour les organisateurs" data-en="For promoters">Pour les organisateurs</h2>
+    <a class="row" href="docs/DJ-ALDO-rider.pdf" target="_blank"><div class="ic"><svg viewBox="0 0 24 24"><path d="M6 2h9l5 5v15H4V2h2zm8 1.5V8h4.5L14 3.5zM12 18l4-4h-3v-4h-2v4H8l4 4z"/></svg></div><div class="tx"><b data-fr="Fiche technique &amp; accueil" data-en="Technical &amp; hospitality rider">Fiche technique &amp; accueil</b><span>3x CDJ-3000 · DJM-900NXS2 / A9</span></div><svg class="ar" viewBox="0 0 24 24"><path d="M12 5v14M5 12l7 7 7-7"/></svg></a>
+    <a class="row" href="#kit" data-tab="kit"><img class="th" src="img/hero.jpg" alt=""><div class="tx"><b data-fr="Kit presse" data-en="Press kit">Kit presse</b><span data-fr="Bio, vidéos, photos" data-en="Bio, videos, photos">Bio, vidéos, photos</span></div><svg class="ar" viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></svg></a>
+  </section>
+
   <div class="socials">
-    <a href="https://www.instagram.com/jaydeealdo/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.6 0 4.8.1 1.2.1 1.8.2 2.2.4.6.2 1 .5 1.4.9.4.4.7.8.9 1.4.2.4.4 1 .4 2.2.1 1.3.1 1.6.1 4.8s0 3.6-.1 4.8c-.1 1.2-.2 1.8-.4 2.2-.2.6-.5 1-.9 1.4-.4.4-.8.7-1.4.9-.4.2-1 .4-2.2.4-1.3.1-1.6.1-4.8.1s-3.6 0-4.8-.1c-1.2-.1-1.8-.2-2.2-.4-.6-.2-1-.5-1.4-.9-.4-.4-.7-.8-.9-1.4-.2-.4-.4-1-.4-2.2C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.8c.1-1.2.2-1.8.4-2.2.2-.6.5-1 .9-1.4.4-.4.8-.7 1.4-.9.4-.2 1-.4 2.2-.4C8.4 2.2 8.8 2.2 12 2.2zm0 3.1a6.7 6.7 0 100 13.4 6.7 6.7 0 000-13.4zm0 11a4.3 4.3 0 110-8.6 4.3 4.3 0 010 8.6zm6.9-11.3a1.6 1.6 0 11-3.1 0 1.6 1.6 0 013.1 0z"/></svg></a>
-    <a href="https://www.tiktok.com/@djaldo__" target="_blank" rel="noopener" aria-label="TikTok"><svg viewBox="0 0 24 24"><path d="M19.6 6.7a4.8 4.8 0 01-3.8-4.2V2h-3.4v13.7a2.9 2.9 0 11-2-2.7V9.5a6.3 6.3 0 105.4 6.2V8.8a8.2 8.2 0 003.8 1V6.7z"/></svg></a>
-    <a href="https://soundcloud.com/aldocartii" target="_blank" rel="noopener" aria-label="SoundCloud"><svg viewBox="0 0 24 24"><path d="M1 14.5l.4 2.3L1 19h-.3L.3 16.8.7 14.5H1zm2-1.4l.5 3.7-.5 3.6h-.4l-.4-3.6.4-3.7H3zm2-.7l.4 4.4-.4 4.2h-.5l-.4-4.2.4-4.4H5zm2 .1l.4 4.3-.4 4.2h-.5l-.3-4.2.3-4.3H7zm2-1.8l.4 6.1-.4 4h-.6l-.3-4 .3-6.1H9zm2-1.7l.3 7.8-.3 3.9h-.6L10 16.8l.3-7.8h.7zm9.2 2.9a3.8 3.8 0 00-1.4.3A6.2 6.2 0 0012.6 6.4c-.6 0-1.1.1-1.5.3v13H20.2a3.8 3.8 0 000-7.6z"/></svg></a>
+    <a href="https://instagram.com/jaydeealdo" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.6 0 4.8.1 3.3.1 4.8 1.7 4.9 4.9.1 1.3.1 1.6.1 4.8s0 3.6-.1 4.8c-.1 3.2-1.7 4.8-4.9 4.9-1.3.1-1.6.1-4.8.1s-3.6 0-4.8-.1c-3.3-.1-4.8-1.7-4.9-4.9C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.8C2.4 3.9 3.9 2.4 7.2 2.3 8.4 2.2 8.8 2.2 12 2.2zm0 1.8c-3.1 0-3.5 0-4.7.1-2.4.1-3.4 1.2-3.5 3.5-.1 1.2-.1 1.6-.1 4.7s0 3.5.1 4.7c.1 2.3 1.1 3.4 3.5 3.5 1.2.1 1.6.1 4.7.1s3.5 0 4.7-.1c2.3-.1 3.4-1.2 3.5-3.5.1-1.2.1-1.6.1-4.7s0-3.5-.1-4.7c-.1-2.3-1.2-3.4-3.5-3.5-1.2-.1-1.6-.1-4.7-.1zm0 3.1a4.9 4.9 0 110 9.8 4.9 4.9 0 010-9.8zm0 8a3.1 3.1 0 100-6.2 3.1 3.1 0 000 6.2zm5.1-9.4a1.1 1.1 0 110 2.3 1.1 1.1 0 010-2.3z"/></svg></a>
+    <a href="https://open.spotify.com/playlist/5IkbMKC4W7iIO12g5y5BwP" target="_blank" rel="noopener" aria-label="Spotify"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 100 20 10 10 0 000-20zm4.6 14.4a.6.6 0 01-.9.2c-2.4-1.5-5.4-1.8-8.9-1a.6.6 0 11-.3-1.2c3.9-.9 7.2-.5 9.9 1.1.3.2.4.6.2.9zm1.2-2.7a.8.8 0 01-1.1.3c-2.7-1.7-6.9-2.2-10.2-1.2a.8.8 0 11-.5-1.5c3.7-1.1 8.3-.6 11.4 1.3.4.3.5.8.4 1.1zm.1-2.8C14.7 9 9.4 8.8 6.4 9.7a1 1 0 11-.6-1.9c3.5-1 9.3-.8 13 1.4a1 1 0 01-.9 1.7z"/></svg></a>
+    <a href="https://tiktok.com/@djaldo__" target="_blank" rel="noopener" aria-label="TikTok"><svg viewBox="0 0 24 24"><path d="M19.6 6.7a4.8 4.8 0 01-3.8-4.2V2h-3.4v13.7a2.9 2.9 0 11-2-2.7V9.5a6.3 6.3 0 105.4 6.2V8.8a8.2 8.2 0 003.8 1V6.7z"/></svg></a>
+    <a href="https://soundcloud.com/aldocartii" target="_blank" rel="noopener" aria-label="SoundCloud"><svg viewBox="0 0 24 24"><path d="M1.2 14.4l.3 2.4-.3 2.3c0 .1-.1.2-.2.2s-.2-.1-.2-.2l-.3-2.3.3-2.4c0-.1.1-.2.2-.2s.2.1.2.2zm1.7-1.3l.4 3.7-.4 3.6c0 .1-.1.2-.2.2s-.2-.1-.2-.2l-.4-3.6.4-3.7c0-.1.1-.2.2-.2s.2.1.2.2zm1.8-.6l.4 4.3-.4 4.2c0 .2-.1.3-.3.3-.1 0-.2-.1-.3-.3l-.3-4.2.3-4.3c0-.2.1-.3.3-.3.2 0 .3.1.3.3zm1.8-.2l.3 4.5-.3 4.3c0 .2-.2.3-.3.3s-.3-.1-.3-.3l-.3-4.3.3-4.5c0-.2.1-.3.3-.3s.3.1.3.3zm1.9-1.4l.3 5.9-.3 4.4c0 .2-.2.4-.4.4s-.3-.2-.4-.4l-.3-4.4.3-5.9c0-.2.2-.4.4-.4s.4.2.4.4zm1.9-1.4l.3 7.3-.3 4.4c0 .2-.2.4-.4.4s-.4-.2-.4-.4l-.2-4.4.2-7.3c0-.2.2-.4.4-.4s.4.2.4.4zm9.3 3a3.3 3.3 0 010 6.6h-7.9c-.2 0-.4-.2-.4-.4V8.2c0-.2.1-.3.3-.4a5.5 5.5 0 017.5 4.1c.2-.1.4-.1.5-.1z"/></svg></a>
     <a href="https://www.youtube.com/@aldo4422" target="_blank" rel="noopener" aria-label="YouTube"><svg viewBox="0 0 24 24"><path d="M23.5 6.2a3 3 0 00-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 00.5 6.2 31 31 0 000 12a31 31 0 00.5 5.8 3 3 0 002.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 002.1-2.1A31 31 0 0024 12a31 31 0 00-.5-5.8zM9.6 15.6V8.4l6.3 3.6-6.3 3.6z"/></svg></a>
   </div>
-</div></section>
 
-<footer>DJ ALDO · MONTPELLIER · © 2026</footer>
+  <footer><b>DJ ALDO · MONTPELLIER</b><img src="img/logo.png" alt="DJ ALDO"></footer>
+</main>
 <div class="lb" id="lb"><img alt=""></div>
 
 <script>
-const nav=document.getElementById('nav');addEventListener('scroll',()=>nav.classList.toggle('solid',scrollY>60),{passive:true});
-document.querySelectorAll('.vid').forEach(v=>{const vid=v.querySelector('video');v.addEventListener('click',()=>{document.querySelectorAll('.vid video').forEach(o=>{if(o!==vid){o.pause();o.controls=false;o.parentElement.classList.remove('on')}});if(vid.paused){vid.controls=true;vid.play();v.classList.add('on')}});});
-const lb=document.getElementById('lb');document.querySelectorAll('#grid img').forEach(i=>i.addEventListener('click',()=>{lb.querySelector('img').src=i.src;lb.classList.add('open')}));lb.addEventListener('click',()=>lb.classList.remove('open'));
-let lang=(navigator.language||'en').startsWith('fr')?'fr':'en';const btn=document.getElementById('lang');
-function setLang(l){lang=l;document.documentElement.lang=l;document.querySelectorAll('[data-en]').forEach(e=>{e.innerHTML=e.dataset[l]});btn.textContent=l==='en'?'FR':'EN'}
-btn.addEventListener('click',()=>setLang(lang==='en'?'fr':'en'));if(lang==='fr')setLang('fr');
+const tabs=[...document.querySelectorAll('#tabs button')];
+function show(p,scroll){tabs.forEach(b=>b.classList.toggle('on',b.dataset.p===p));document.querySelectorAll('.panel').forEach(s=>s.classList.toggle('on',s.id===p));document.querySelectorAll('.vid video').forEach(v=>v.pause());if(scroll)document.getElementById('tabs').scrollIntoView({behavior:'smooth',block:'start'});history.replaceState(null,'',p==='links'?location.pathname:'#'+p)}
+tabs.forEach(b=>b.addEventListener('click',()=>show(b.dataset.p)));
+document.querySelectorAll('[data-tab]').forEach(a=>a.addEventListener('click',e=>{e.preventDefault();show(a.dataset.tab,true)}));
+const h=location.hash.slice(1);if(['kit','book'].includes(h))show(h);
+document.querySelectorAll('.vid').forEach(v=>{const vid=v.querySelector('video');v.addEventListener('click',()=>{document.querySelectorAll('.vid video').forEach(o=>{if(o!==vid){o.pause();o.controls=false;o.parentElement.classList.remove('on')}});if(vid.paused){vid.controls=true;vid.play();v.classList.add('on')}})});
+const lb=document.getElementById('lb');document.querySelectorAll('#photos img').forEach(i=>i.addEventListener('click',()=>{lb.querySelector('img').src=i.src;lb.classList.add('open')}));lb.addEventListener('click',()=>lb.classList.remove('open'));
+let lang=(navigator.language||'fr').startsWith('fr')?'fr':'en';const lb2=document.getElementById('lang');
+function setLang(l){lang=l;document.documentElement.lang=l;document.querySelectorAll('[data-fr]').forEach(e=>{e.innerHTML=e.dataset[l]});lb2.textContent=l==='fr'?'EN':'FR'}
+lb2.addEventListener('click',()=>setLang(lang==='fr'?'en':'fr'));if(lang==='en')setLang('en');
 </script>
 </body>
 </html>
