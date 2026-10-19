@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>DJ ALDO · Press Kit</title>
+<meta name="description" content="DJ ALDO · Red Bull Turn It Up French Champion 2025 · Afro house, amapiano, afrobeats, caribbean, hip-hop · Montpellier, France. Press kit, videos, photos, booking.">
+<meta property="og:title" content="DJ ALDO · Press Kit">
+<meta property="og:description" content="Red Bull Turn It Up French Champion 2025 · Afro house · Amapiano · Afrobeats · Caribbean · Hip-hop">
+<meta property="og:image" content="img/og.jpg">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#0b0b0b">
+<link rel="icon" href="img/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0b0b0b;--fg:#f4f1ec;--mute:#9a958e;--line:#242322;--acc:#e0661b}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--fg);font:16px/1.6 Inter,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+img,video{display:block;max-width:100%}
+.wrap{max-width:1120px;margin:0 auto;padding:0 22px}
+nav{position:fixed;inset:0 0 auto 0;z-index:20;display:flex;justify-content:space-between;align-items:center;padding:16px 22px;transition:background .3s}
+nav.solid{background:rgba(11,11,11,.88);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+nav .links{display:flex;gap:22px;font-size:13px;font-weight:500;letter-spacing:.06em;text-transform:uppercase}
+nav .links a{opacity:.75}nav .links a:hover{opacity:1}
+.lang{font-size:12px;font-weight:700;letter-spacing:.08em;border:1px solid #fff5;border-radius:99px;padding:4px 10px;cursor:pointer;background:none;color:var(--fg)}
+.brand img{height:26px;width:auto}
+header.hero{position:relative;height:100svh;min-height:560px;display:flex;align-items:flex-end;overflow:hidden}
+.hero>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 30%}
+.hero:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(11,11,11,.15) 0%,rgba(11,11,11,.1) 45%,rgba(11,11,11,.95) 100%)}
+.hero .inner{position:relative;z-index:2;padding-bottom:9vh;width:100%}
+.hero .logo{width:min(560px,82vw);height:auto;filter:drop-shadow(0 6px 24px rgba(0,0,0,.35))}
+.tag{margin-top:18px;font-size:clamp(14px,1.6vw,17px);letter-spacing:.14em;text-transform:uppercase;font-weight:500;opacity:.9}
+.badge{display:inline-flex;gap:8px;align-items:center;margin-top:14px;font-size:13px;font-weight:700;letter-spacing:.04em;background:var(--fg);color:#111;padding:7px 13px;border-radius:99px}
+.cta{display:flex;gap:12px;margin-top:26px;flex-wrap:wrap}
+.btn{display:inline-block;padding:13px 22px;border-radius:99px;font-weight:700;font-size:14px;letter-spacing:.03em;border:1px solid var(--fg);transition:.2s}
+.btn.fill{background:var(--fg);color:#111}.btn:hover{transform:translateY(-1px);opacity:.9}
+section{padding:96px 0;border-top:1px solid var(--line)}
+h2{font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:var(--mute);font-weight:500;margin-bottom:28px}
+.lead{font-size:clamp(20px,2.6vw,30px);line-height:1.35;font-weight:500;max-width:880px}
+.lead b{font-weight:900}
+.bio{display:grid;grid-template-columns:1.25fr 1fr;gap:56px;margin-top:40px;color:#d8d3cc}
+.bio p+p{margin-top:14px}
+.facts{list-style:none;border-top:1px solid var(--line)}
+.facts li{display:flex;justify-content:space-between;gap:18px;padding:13px 0;border-bottom:1px solid var(--line);font-size:14px}
+.facts span:first-child{color:var(--mute)}.facts span:last-child{text-align:right;font-weight:500}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:26px}
+.chips span{border:1px solid #3a3836;border-radius:99px;padding:6px 13px;font-size:13px}
+.vids{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.vid{position:relative;border-radius:14px;overflow:hidden;background:#161514;aspect-ratio:9/16;cursor:pointer}
+.vid.wide{grid-column:span 3;aspect-ratio:16/9}
+.vid video{width:100%;height:100%;object-fit:cover}
+.vid .cap{position:absolute;left:0;right:0;bottom:0;padding:34px 14px 12px;font-size:13px;font-weight:700;letter-spacing:.03em;background:linear-gradient(transparent,rgba(0,0,0,.75));pointer-events:none;transition:opacity .3s}
+.vid .play{position:absolute;inset:0;display:grid;place-items:center;pointer-events:none;transition:opacity .3s}
+.vid .play i{width:62px;height:62px;border-radius:50%;background:rgba(244,241,236,.92);display:grid;place-items:center}
+.vid .play i:after{content:"";border-left:17px solid #111;border-top:11px solid transparent;border-bottom:11px solid transparent;margin-left:5px}
+.vid.on .play,.vid.on .cap{opacity:0}
+.music{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.music.one{grid-template-columns:1fr}
+.dl a b{font-weight:700}
+.music iframe{width:100%;border:0;border-radius:14px;background:#161514}
+.grid{columns:3 260px;column-gap:12px}
+.grid img{width:100%;margin-bottom:12px;border-radius:10px;cursor:zoom-in;transition:opacity .2s}
+.grid img:hover{opacity:.88}
+.more{margin-top:26px;display:flex;gap:12px;flex-wrap:wrap}
+.orgs{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.org{display:flex;gap:20px;align-items:center;border:1px solid var(--line);border-radius:16px;padding:22px;transition:.2s}
+.org:hover{border-color:#4a4744;background:#121110}
+.org img{width:84px;height:84px;border-radius:50%;object-fit:cover;flex:none}
+.org h3{font-size:20px;font-weight:900;letter-spacing:.02em}
+.org p{font-size:14px;color:#bdb7af;margin-top:4px}
+.org small{display:block;margin-top:8px;font-size:12px;color:var(--acc);font-weight:700;letter-spacing:.06em}
+.dl{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.dl a{border:1px solid var(--line);border-radius:14px;padding:20px;display:flex;justify-content:space-between;align-items:center;font-weight:700;transition:.2s}
+.dl a:hover{background:#121110;border-color:#4a4744}
+.dl a span{font-size:12px;color:var(--mute);font-weight:500}
+.contact{text-align:center}
+.contact .big{font-size:clamp(30px,6vw,64px);font-weight:900;letter-spacing:-.01em;line-height:1.05}
+.contact .cta{justify-content:center}
+.socials{display:flex;justify-content:center;gap:12px;margin-top:40px;flex-wrap:wrap}
+.socials a{width:48px;height:48px;border-radius:50%;border:1px solid #3a3836;display:grid;place-items:center;transition:.2s}
+.socials a:hover{background:var(--fg);color:#111}
+.socials svg{width:20px;height:20px;fill:currentColor}
+footer{padding:34px 0 46px;text-align:center;color:var(--mute);font-size:12px;letter-spacing:.06em}
+.lb{position:fixed;inset:0;z-index:50;background:rgba(0,0,0,.94);display:none;align-items:center;justify-content:center;padding:20px;cursor:zoom-out}
+.lb.open{display:flex}.lb img{max-height:92vh;max-width:94vw;border-radius:8px}
+[data-fr]{}
+@media (max-width:820px){
+ nav .links{display:none}
+ .bio,.music,.orgs,.dl{grid-template-columns:1fr}
+ .vids{grid-template-columns:1fr 1fr}.vid.wide{grid-column:span 2}
+ section{padding:72px 0}
+ .hero>img{object-position:68% 30%}
+}
+</style>
+</head>
+<body>
+<nav id="nav">
+  <a class="brand" href="#top"><img src="img/logo.png" alt="DJ ALDO"></a>
+  <div class="links"><a href="#about" data-en="About" data-fr="Bio">About</a><a href="#videos" data-en="Videos" data-fr="Vidéos">Videos</a><a href="#music" data-en="Music" data-fr="Musique">Music</a><a href="#photos">Photos</a><a href="#projects" data-en="Projects" data-fr="Projets">Projects</a><a href="#booking">Booking</a></div>
+  <button class="lang" id="lang">FR</button>
+</nav>
+
+<header class="hero" id="top">
+  <img src="img/hero.jpg" alt="DJ Aldo lifting the Red Bull Turn It Up trophy">
+  <div class="inner wrap">
+    <img class="logo" src="img/logo.png" alt="DJ ALDO">
+    <div class="tag">DJ · Producer · Montpellier, France</div>
+    <div class="badge">🏆 <span data-en="Red Bull Turn It Up · French Champion 2025" data-fr="Red Bull Turn It Up · Champion de France 2025">Red Bull Turn It Up · French Champion 2025</span></div>
+    <div class="cta"><a class="btn fill" href="#booking" data-en="Book Aldo" data-fr="Booker Aldo">Book Aldo</a><a class="btn" href="#videos" data-en="Watch" data-fr="Voir les vidéos">Watch</a></div>
+  </div>
+</header>
+
+<section id="about"><div class="wrap">
+  <h2 data-en="About" data-fr="Bio">About</h2>
+  <p class="lead" data-en="Caribbean vibes meet African electronic music. <b>Afro house, amapiano, afrobeats, gqom, kuduro</b>, with hip-hop and R&amp;B roots. One goal: make people dance and connect." data-fr="Les vibrations caribéennes rencontrent la musique électronique africaine. <b>Afro house, amapiano, afrobeat, gqom, kuduro</b>, avec des racines hip-hop et R&amp;B. Un seul objectif : faire danser et rassembler.">Caribbean vibes meet African electronic music. <b>Afro house, amapiano, afrobeats, gqom, kuduro</b>, with hip-hop and R&amp;B roots. One goal: make people dance and connect.</p>
+  <div class="bio">
+    <div>
+      <p data-en="Known as Aldo, Aldel was born in Paris and grew up with the sound of vinyl. He started on the hip-hop and R&amp;B scene, where he learned to read a crowd and turn every set into an experience, before building his identity as a resident at L'Entrepôt and Le Five in Montpellier." data-fr="Aldel, alias Aldo, est né à Paris et a grandi avec le son des vinyles. Il a commencé sur la scène hip-hop et R&amp;B, où il a appris à lire le public et à transformer chaque set en expérience, avant de construire son identité en résidence à L'Entrepôt et au Five à Montpellier.">Known as Aldo, Aldel was born in Paris and grew up with the sound of vinyl. He started on the hip-hop and R&amp;B scene, where he learned to read a crowd and turn every set into an experience, before building his identity as a resident at L'Entrepôt and Le Five in Montpellier.</p>
+      <p data-en="He won his first Red Bull Turn It Up battle at Delta Festival in Marseille, then the French final on the Warehouse stage in Nantes. He has played concert stages like the Rockstore and La Rayonne, and on Rinse France. Through his own events, TSARA'JAB and KIAFRIKA, he brings the sounds of his Malagasy roots to ever wider crowds." data-fr="Il remporte son premier Red Bull Turn It Up au Delta Festival à Marseille, puis la finale France sur la scène du Warehouse à Nantes. Il a joué sur des scènes comme le Rockstore et La Rayonne, et sur Rinse France. Avec ses propres événements, TSARA'JAB et KIAFRIKA, il fait voyager les sons de Madagascar, son pays d'origine, devant des publics toujours plus larges.">He won his first Red Bull Turn It Up battle at Delta Festival in Marseille, then the French final on the Warehouse stage in Nantes. He has played concert stages like the Rockstore and La Rayonne, and on Rinse France. Through his own events, TSARA'JAB and KIAFRIKA, he brings the sounds of his Malagasy roots to ever wider crowds.</p>
+    </div>
+    <ul class="facts">
+      <li><span data-en="Title" data-fr="Titre">Title</span><span data-en="Red Bull Turn It Up · French Champion 2025" data-fr="Red Bull Turn It Up · Champion de France 2025">Red Bull Turn It Up · French Champion 2025</span></li>
+      <li><span>Radio</span><span data-en="Played on Rinse France" data-fr="A joué sur Rinse France">Played on Rinse France</span></li>
+      <li><span data-en="Stages" data-fr="Scènes">Stages</span><span>Delta Festival · Warehouse · Rockstore · La Rayonne</span></li>
+      <li><span data-en="Played in" data-fr="A joué à">Played in</span><span>Paris · Lyon · Marseille · Nantes · Madrid · Milan · Göteborg · Guinea</span></li>
+      <li><span data-en="Based in" data-fr="Basé à">Based in</span><span>Montpellier, France</span></li>
+      <li><span data-en="Set" data-fr="Set">Set</span><span data-en="1h to 3h · open format on request" data-fr="1h à 3h · open format sur demande">1h to 3h · open format on request</span></li>
+    </ul>
+  </div>
+  <div class="chips"><span>Afro house</span><span>Amapiano</span><span>Afrobeats</span><span>Gqom</span><span>Xagatech</span><span>Kuduro</span><span>Caribbean</span><span>Hip-hop</span><span>R&amp;B</span><span>Open format</span></div>
+</div></section>
+
+<section id="videos"><div class="wrap">
+  <h2 data-en="Videos" data-fr="Vidéos">Videos</h2>
+  <div class="vids">
+    <div class="vid"><video playsinline preload="none" poster="video/aftermovie.jpg" src="video/aftermovie.mp4"></video><div class="play"><i></i></div><div class="cap">Aftermovie</div></div>
+    <div class="vid"><video playsinline preload="none" poster="video/transition.jpg" src="video/transition.mp4"></video><div class="play"><i></i></div><div class="cap" data-en="Signature transition" data-fr="Ma transition classique">Signature transition</div></div>
+    <div class="vid"><video playsinline preload="none" poster="video/larayonne.jpg" src="video/larayonne.mp4"></video><div class="play"><i></i></div><div class="cap">La Rayonne · Lyon</div></div>
+    <div class="vid"><video playsinline preload="none" poster="video/tank-lyon.jpg" src="video/tank-lyon.mp4"></video><div class="play"><i></i></div><div class="cap">Tank · Lyon</div></div>
+    <div class="vid"><video playsinline preload="none" poster="video/casita.jpg" src="video/casita.mp4"></video><div class="play"><i></i></div><div class="cap">Casita</div></div>
+    <div class="vid"><video playsinline preload="none" poster="video/redbull.jpg" src="video/redbull.mp4"></video><div class="play"><i></i></div><div class="cap">Red Bull Turn It Up</div></div>
+  </div>
+</div></section>
+
+<section id="music"><div class="wrap">
+  <h2 data-en="Music" data-fr="Musique">Music</h2>
+  <div class="music one">
+    <iframe height="420" allow="autoplay" loading="lazy" src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/aldocartii&color=%23e0661b&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false&visual=false"></iframe>
+  </div>
+  <div class="more"><a class="btn" href="https://soundcloud.com/aldocartii" target="_blank" rel="noopener">SoundCloud</a><a class="btn" href="https://www.youtube.com/@aldo4422" target="_blank" rel="noopener">YouTube</a></div>
+</div></section>
+
+<section id="photos"><div class="wrap">
+  <h2>Photos</h2>
+  <div class="grid" id="grid">
+    <img loading="lazy" src="img/p01.jpg" alt="DJ Aldo"><img loading="lazy" src="img/p02.jpg" alt="DJ Aldo"><img loading="lazy" src="img/p03.jpg" alt="DJ Aldo"><img loading="lazy" src="img/p04.jpg" alt="DJ Aldo"><img loading="lazy" src="img/p05.jpg" alt="DJ Aldo"><img loading="lazy" src="img/p06.jpg" alt="DJ Aldo"><img loading="lazy" src="img/p07.jpg" alt="DJ Aldo"><img loading="lazy" src="img/p08.jpg" alt="DJ Aldo"><img loading="lazy" src="img/p09.jpg" alt="DJ Aldo"><img loading="lazy" src="img/p10.jpg" alt="DJ Aldo"><img loading="lazy" src="img/p11.jpg" alt="DJ Aldo"><img loading="lazy" src="img/p12.jpg" alt="DJ Aldo">
+  </div>
+  <div class="more"><a class="btn fill" href="https://drive.google.com/drive/folders/1-CrHGYB8jTm2wJfXRqMhWqRJYmyt_7cm" target="_blank" rel="noopener" data-en="HD photos &amp; videos (Drive)" data-fr="Photos &amp; vidéos HD (Drive)">HD photos &amp; videos (Drive)</a></div>
+</div></section>
+
+<section id="projects"><div class="wrap">
+  <h2 data-en="Projects" data-fr="Projets">Projects</h2>
+  <div class="orgs">
+    <a class="org" href="https://www.instagram.com/tsarajab/" target="_blank" rel="noopener"><img src="img/org-tsarajab.jpg" alt="TSARA'JAB"><div><h3>TSARA'JAB 🇲🇬</h3><p data-en="His own event concept in Montpellier: DJs from all over France, a warm family energy, and the sounds of Madagascar." data-fr="Son concept d'événements à Montpellier : des DJs de toute la France, une énergie chaleureuse et familiale, et les sons de Madagascar.">His own event concept in Montpellier: DJs from all over France, a warm family energy, and the sounds of Madagascar.</p><small data-en="FOUNDER · @TSARAJAB" data-fr="FONDATEUR · @TSARAJAB">FOUNDER · @TSARAJAB</small></div></a>
+    <a class="org" href="https://www.instagram.com/kiafrika.beats/" target="_blank" rel="noopener"><img src="img/org-kiafrika.jpg" alt="KIAFRIKA"><div><h3>KIAFRIKA 🌍</h3><p data-en="Afro open air in Montpellier, at Willie Carter Sharpe · Marché du Lez. A full year of free afro nights." data-fr="Afro open air à Montpellier, au Willie Carter Sharpe · Marché du Lez. Une année entière de soirées afro gratuites.">Afro open air in Montpellier, at Willie Carter Sharpe · Marché du Lez. A full year of free afro nights.</p><small data-en="FOUNDER · @KIAFRIKA.BEATS" data-fr="FONDATEUR · @KIAFRIKA.BEATS">FOUNDER · @KIAFRIKA.BEATS</small></div></a>
+  </div>
+</div></section>
+
+<section id="downloads"><div class="wrap">
+  <h2 data-en="Downloads" data-fr="Téléchargements">Downloads</h2>
+  <div class="dl">
+    <a href="docs/DJ-ALDO-press-kit-EN.pdf" target="_blank">Press kit EN <span>PDF ↓</span></a>
+    <a href="docs/DJ-ALDO-press-kit-FR.pdf" target="_blank">Press kit FR <span>PDF ↓</span></a>
+    <a href="docs/DJ-ALDO-rider.pdf" target="_blank"><b data-en="Rider" data-fr="Fiche technique">Rider</b> <span>PDF ↓</span></a>
+  </div>
+</div></section>
+
+<section id="booking" class="contact"><div class="wrap">
+  <h2>Booking</h2>
+  <div class="big">aldeltag@gmail.com</div>
+  <div class="cta"><a class="btn fill" href="mailto:aldeltag@gmail.com?subject=Booking%20DJ%20Aldo">Email</a><a class="btn" href="https://wa.me/33671454798" target="_blank" rel="noopener">WhatsApp +33 6 71 45 47 98</a><a class="btn" href="https://ig.me/m/jaydeealdo" target="_blank" rel="noopener">Instagram DM</a></div>
+  <div class="socials">
+    <a href="https://www.instagram.com/jaydeealdo/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.6 0 4.8.1 1.2.1 1.8.2 2.2.4.6.2 1 .5 1.4.9.4.4.7.8.9 1.4.2.4.4 1 .4 2.2.1 1.3.1 1.6.1 4.8s0 3.6-.1 4.8c-.1 1.2-.2 1.8-.4 2.2-.2.6-.5 1-.9 1.4-.4.4-.8.7-1.4.9-.4.2-1 .4-2.2.4-1.3.1-1.6.1-4.8.1s-3.6 0-4.8-.1c-1.2-.1-1.8-.2-2.2-.4-.6-.2-1-.5-1.4-.9-.4-.4-.7-.8-.9-1.4-.2-.4-.4-1-.4-2.2C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.8c.1-1.2.2-1.8.4-2.2.2-.6.5-1 .9-1.4.4-.4.8-.7 1.4-.9.4-.2 1-.4 2.2-.4C8.4 2.2 8.8 2.2 12 2.2zm0 3.1a6.7 6.7 0 100 13.4 6.7 6.7 0 000-13.4zm0 11a4.3 4.3 0 110-8.6 4.3 4.3 0 010 8.6zm6.9-11.3a1.6 1.6 0 11-3.1 0 1.6 1.6 0 013.1 0z"/></svg></a>
+    <a href="https://www.tiktok.com/@djaldo__" target="_blank" rel="noopener" aria-label="TikTok"><svg viewBox="0 0 24 24"><path d="M19.6 6.7a4.8 4.8 0 01-3.8-4.2V2h-3.4v13.7a2.9 2.9 0 11-2-2.7V9.5a6.3 6.3 0 105.4 6.2V8.8a8.2 8.2 0 003.8 1V6.7z"/></svg></a>
+    <a href="https://soundcloud.com/aldocartii" target="_blank" rel="noopener" aria-label="SoundCloud"><svg viewBox="0 0 24 24"><path d="M1 14.5l.4 2.3L1 19h-.3L.3 16.8.7 14.5H1zm2-1.4l.5 3.7-.5 3.6h-.4l-.4-3.6.4-3.7H3zm2-.7l.4 4.4-.4 4.2h-.5l-.4-4.2.4-4.4H5zm2 .1l.4 4.3-.4 4.2h-.5l-.3-4.2.3-4.3H7zm2-1.8l.4 6.1-.4 4h-.6l-.3-4 .3-6.1H9zm2-1.7l.3 7.8-.3 3.9h-.6L10 16.8l.3-7.8h.7zm9.2 2.9a3.8 3.8 0 00-1.4.3A6.2 6.2 0 0012.6 6.4c-.6 0-1.1.1-1.5.3v13H20.2a3.8 3.8 0 000-7.6z"/></svg></a>
+    <a href="https://www.youtube.com/@aldo4422" target="_blank" rel="noopener" aria-label="YouTube"><svg viewBox="0 0 24 24"><path d="M23.5 6.2a3 3 0 00-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 00.5 6.2 31 31 0 000 12a31 31 0 00.5 5.8 3 3 0 002.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 002.1-2.1A31 31 0 0024 12a31 31 0 00-.5-5.8zM9.6 15.6V8.4l6.3 3.6-6.3 3.6z"/></svg></a>
+  </div>
+</div></section>
+
+<footer>DJ ALDO · MONTPELLIER · © 2026</footer>
+<div class="lb" id="lb"><img alt=""></div>
+
+<script>
+const nav=document.getElementById('nav');addEventListener('scroll',()=>nav.classList.toggle('solid',scrollY>60),{passive:true});
+document.querySelectorAll('.vid').forEach(v=>{const vid=v.querySelector('video');v.addEventListener('click',()=>{document.querySelectorAll('.vid video').forEach(o=>{if(o!==vid){o.pause();o.controls=false;o.parentElement.classList.remove('on')}});if(vid.paused){vid.controls=true;vid.play();v.classList.add('on')}});});
+const lb=document.getElementById('lb');document.querySelectorAll('#grid img').forEach(i=>i.addEventListener('click',()=>{lb.querySelector('img').src=i.src;lb.classList.add('open')}));lb.addEventListener('click',()=>lb.classList.remove('open'));
+let lang=(navigator.language||'en').startsWith('fr')?'fr':'en';const btn=document.getElementById('lang');
+function setLang(l){lang=l;document.documentElement.lang=l;document.querySelectorAll('[data-en]').forEach(e=>{e.innerHTML=e.dataset[l]});btn.textContent=l==='en'?'FR':'EN'}
+btn.addEventListener('click',()=>setLang(lang==='en'?'fr':'en'));if(lang==='fr')setLang('fr');
+</script>
+</body>
+</html>
