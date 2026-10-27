@@ -225,9 +225,13 @@ const GIGS=[
  {d:"2026-10-24",t:"L'Entrepôt · Tropical Vibes",p:"Lattes · Montpellier"},
  {d:"2026-10-31",t:"Mada'lloween · Le Mokai",p:"Cugnaux · Toulouse"},
  {d:"2026-11-15",t:"Le Five",p:"Lattes · Montpellier"},
+ {d:"2026-11-20",t:"L'Entrepôt",p:"Lattes · Montpellier"},
  {d:"2026-11-21",t:"BDB Corp · Guest",p:"Arles"},
  {d:"2026-11-26",t:"Le Five",p:"Lattes · Montpellier"},
  {d:"2026-11-27",t:"Le Five",p:"Lattes · Montpellier"},
+ {d:"2026-11-28",t:"L'Entrepôt",p:"Lattes · Montpellier"},
+ {d:"2026-12-11",t:"FaraNight w/ KYLLUXX",p:"Marseille"},
+ {d:"2026-12-26",t:"FaraNight w/ Mjie",p:"Marseille"},
  {d:"2027-03-28",t:"KOY CLUB",p:"Valence / Lyon"}
 ];
 function renderGigs(){const today=new Date();today.setHours(0,0,0,0);const L=document.documentElement.lang==='en'?'en-GB':'fr-FR';const up=GIGS.filter(g=>new Date(g.d+'T23:59:00')>=today);const box=document.getElementById('gigs');if(!up.length){document.getElementById('upcoming').style.display='none';return}box.innerHTML=up.map(g=>{const dt=new Date(g.d+'T12:00:00');return '<div class="gig"><div class="d"><small>'+dt.toLocaleDateString(L,{weekday:'short'}).replace('.','')+'</small><b>'+dt.getDate()+'</b><small>'+dt.toLocaleDateString(L,{month:'short'}).replace('.','')+'</small></div><div class="tx"><b>'+g.t+'</b><span>'+g.p+'</span></div></div>'}).join('')}
